@@ -12,3 +12,14 @@ git remote -v
 --getting changes on github to our local machine
 
 git fetch and git pull
+
+
+echo "# git_x" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kenny5524/git_x.git
+git push -u origin main
+
+
