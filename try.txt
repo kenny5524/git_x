@@ -1,0 +1,14 @@
+git remote add origin <link>
+git branch -M main
+git push -u origin main
+
+
+git remote remove origin
+
+git remote -v
+
+
+
+--getting changes on github to our local machine
+
+git fetch and git pull
